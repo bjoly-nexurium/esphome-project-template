@@ -34,7 +34,7 @@ wifi:
   ssid: "NexuriWifi"
   # Set up a wifi access point using the device name above
   ap:
-    password: "EmergencyPa$$w0rd"
+    password: "123456789"
 
 # In combination with the `ap` this allows the user
 # to provision wifi credentials to the device.
