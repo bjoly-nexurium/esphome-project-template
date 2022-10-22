@@ -31,10 +31,10 @@ sensor:
     name: "Temp 1"
   - platform: dallas
     address: 0x123c01b556d49c28
-    name: "Temp 1"
+    name: "Temp 2"
   - platform: dallas
     address: 0x063c01b556335c28
-    name: "Temp 1"
+    name: "Temp 3"
   
 
 # To be able to get logs from the device via serial and api.
@@ -50,7 +50,7 @@ ota:
 dashboard_import:
   package_import_url: github://esphome/esphome-project-template/project-template-esp8266.yaml@main
 
-wifi:remove ssid
+wifi:
   # Set up a wifi access point using the device name above
   ap:
     password: "123456789"
