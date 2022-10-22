@@ -50,8 +50,7 @@ ota:
 dashboard_import:
   package_import_url: github://esphome/esphome-project-template/project-template-esp8266.yaml@main
 
-wifi:
-  ssid: "NexuriWifi"
+wifi:remove ssid
   # Set up a wifi access point using the device name above
   ap:
     password: "123456789"
