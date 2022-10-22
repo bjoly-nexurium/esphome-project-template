@@ -29,6 +29,12 @@ sensor:
   - platform: dallas
     address: 0x833c01d607afff28
     name: "Temp 1"
+  - platform: dallas
+    address: 0x123c01b556d49c28
+    name: "Temp 1"
+  - platform: dallas
+    address: 0x063c01b556335c28
+    name: "Temp 1"
   
 
 # To be able to get logs from the device via serial and api.
