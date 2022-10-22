@@ -24,7 +24,7 @@ web_server:
 dallas:
   pin: GPIO2
 
-sensors: 
+sensor: 
   - platform: dallas
     address: 0x833c01d607afff28
     name: "Temp 1"
