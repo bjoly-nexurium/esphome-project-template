@@ -23,7 +23,7 @@ web_server:
   version: 2
 
 dallas:
-  pin: GPIO15
+  pin: GPIO13
 
 sensor: 
   - platform: dallas
